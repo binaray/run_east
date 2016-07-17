@@ -14,6 +14,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\object_dragon</object>
+    <object>objects\obj_scroller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>
