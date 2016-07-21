@@ -35,6 +35,7 @@
     <object>objects\obj_bigfireball</object>
     <object>objects\obj_fireball</object>
     <object>objects\obj_dragon</object>
+    <object>objects\obj_bird</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>
