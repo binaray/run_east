@@ -8,7 +8,13 @@
     <sound>sound\snd_backgroundmusic</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite_dragon</sprite>
+    <sprite>sprites\spr_explosion</sprite>
+    <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_boss1</sprite>
+    <sprite>sprites\spr_boss1die</sprite>
+    <sprite>sprites\spr_boss2</sprite>
+    <sprite>sprites\spr_boss2die</sprite>
+    <sprite>sprites\spr_dragon</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -16,8 +22,14 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\object_dragon</object>
     <object>objects\obj_scroller</object>
+    <object>objects\obj_boss1</object>
+    <object>objects\obj_boss1die</object>
+    <object>objects\obj_boss2</object>
+    <object>objects\obj_boss2die</object>
+    <object>objects\obj_explosion</object>
+    <object>objects\obj_fireball</object>
+    <object>objects\obj_dragon</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>
