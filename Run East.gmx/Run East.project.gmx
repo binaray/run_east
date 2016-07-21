@@ -17,6 +17,7 @@
     <sprite>sprites\spr_boss2die</sprite>
     <sprite>sprites\spr_dragon</sprite>
     <sprite>sprites\spr_dragon_att</sprite>
+    <sprite>sprites\spr_bird</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
