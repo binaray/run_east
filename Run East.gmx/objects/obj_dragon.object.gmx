@@ -103,6 +103,30 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>keycount</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="0">
       <action>
@@ -215,15 +239,15 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>obj_fireball</object>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>10</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>5</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -251,7 +275,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>snd_fireball</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -346,6 +370,90 @@
             <string>1</string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>keycount</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>30</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>201</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_create_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_explosion</object>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>10</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
     <event eventtype="5" enumb="40">
@@ -674,6 +782,124 @@
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="10" enumb="88">
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>keycount</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>30</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>206</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_create_object_motion</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_bigfireball</object>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>10</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>5</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>10</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>keycount</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>
