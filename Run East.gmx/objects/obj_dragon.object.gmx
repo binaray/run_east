@@ -215,7 +215,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_fireball</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -251,7 +251,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_fireball</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -320,6 +320,32 @@
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="5" enumb="88">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>keycount</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
       </action>
     </event>
     <event eventtype="5" enumb="40">
