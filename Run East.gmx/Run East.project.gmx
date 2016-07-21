@@ -15,6 +15,7 @@
     <sprite>sprites\spr_boss1die</sprite>
     <sprite>sprites\spr_boss2</sprite>
     <sprite>sprites\spr_boss2die</sprite>
+    <sprite>sprites\spr_bigfireball</sprite>
     <sprite>sprites\spr_dragon</sprite>
     <sprite>sprites\spr_dragon_att</sprite>
     <sprite>sprites\spr_bird</sprite>
@@ -31,6 +32,7 @@
     <object>objects\obj_boss2</object>
     <object>objects\obj_boss2die</object>
     <object>objects\obj_explosion</object>
+    <object>objects\obj_bigfireball</object>
     <object>objects\obj_fireball</object>
     <object>objects\obj_dragon</object>
   </objects>
