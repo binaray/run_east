@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_backgroundmusic</sound>
+    <sound>sound\snd_bigfireball</sound>
     <sound>sound\snd_fireball</sound>
   </sounds>
   <sprites name="sprites">
