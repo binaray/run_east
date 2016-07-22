@@ -32,9 +32,10 @@
     <object>objects\obj_boss1die</object>
     <object>objects\obj_boss2</object>
     <object>objects\obj_boss2die</object>
-    <object>objects\obj_explosion</object>
-    <object>objects\obj_bigfireball</object>
     <object>objects\obj_fireball</object>
+    <object>objects\obj_explosion</object>
+    <object>objects\obj_enemyparent</object>
+    <object>objects\obj_bigfireball</object>
     <object>objects\obj_dragon</object>
     <object>objects\obj_bird</object>
   </objects>
