@@ -403,7 +403,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>obj_scroller.hspeed+8</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -619,7 +619,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_bigfireball</object>
+            <object>obj_explosion</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1073,7 +1073,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>obj_scroller.hspeed+8</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1131,20 +1131,6 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>424</id>
-        <kind>2</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -1166,6 +1152,20 @@
             <string>0</string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
       <action>
         <libid>1</libid>
