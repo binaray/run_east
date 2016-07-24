@@ -14,6 +14,10 @@
     <sprite>sprites\spr_boss1die</sprite>
     <sprite>sprites\spr_boss2</sprite>
     <sprite>sprites\spr_boss2die</sprite>
+    <sprite>sprites\spr_projectile</sprite>
+    <sprite>sprites\spr_specialprojectile</sprite>
+    <sprite>sprites\spr_firepowerpotion</sprite>
+    <sprite>sprites\spr_speedpotion</sprite>
     <sprite>sprites\spr_bird</sprite>
     <sprites name="player_sprites">
       <sprite>sprites\spr_explosion</sprite>
@@ -29,12 +33,17 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_firepowerpotion</object>
+    <object>objects\obj_speedpotion</object>
     <object>objects\obj_scroller</object>
     <object>objects\obj_boss1</object>
     <object>objects\obj_boss1die</object>
     <object>objects\obj_boss2</object>
     <object>objects\obj_boss2die</object>
     <object>objects\obj_fireball</object>
+    <object>objects\obj_projectile</object>
+    <object>objects\obj_bossrojectile</object>
+    <object>objects\obj_specialprojectile</object>
     <object>objects\obj_explosion</object>
     <object>objects\obj_enemyparent</object>
     <object>objects\obj_bigfireball</object>
