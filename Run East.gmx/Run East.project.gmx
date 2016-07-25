@@ -17,6 +17,7 @@
     <sprite>sprites\spr_projectile</sprite>
     <sprite>sprites\spr_specialprojectile</sprite>
     <sprite>sprites\spr_firepowerpotion</sprite>
+    <sprite>sprites\spr_life</sprite>
     <sprite>sprites\spr_speedpotion</sprite>
     <sprite>sprites\spr_bird</sprite>
     <sprites name="player_sprites">
@@ -49,6 +50,7 @@
     <object>objects\obj_bigfireball</object>
     <object>objects\obj_dragon</object>
     <object>objects\obj_bird</object>
+    <object>objects\obj_life</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>
