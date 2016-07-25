@@ -80,6 +80,9 @@
     <instance objName="obj_bird" x="2208" y="288" name="inst_31BCAD51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bird" x="2464" y="384" name="inst_34E6BE6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bird" x="3232" y="448" name="inst_3531BB7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_archer" x="448" y="416" name="inst_68D4ACBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_archer" x="736" y="416" name="inst_A6336713" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_archer" x="992" y="416" name="inst_609B31A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
