@@ -42,26 +42,31 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_firepowerpotion</object>
-    <object>objects\obj_speedpotion</object>
-    <object>objects\obj_scroller</object>
-    <object>objects\obj_boss1</object>
-    <object>objects\obj_boss1die</object>
-    <object>objects\obj_boss2</object>
-    <object>objects\obj_boss2die</object>
-    <object>objects\obj_fireball</object>
-    <object>objects\obj_projectile</object>
-    <object>objects\obj_bossrojectile</object>
-    <object>objects\obj_specialprojectile</object>
-    <object>objects\obj_explosion</object>
-    <object>objects\obj_enemyparent</object>
-    <object>objects\obj_bigfireball</object>
-    <object>objects\obj_dragon</object>
-    <object>objects\obj_bird</object>
-    <object>objects\obj_life</object>
-    <object>objects\obj_archer</object>
-    <object>objects\obj_arrow</object>
-    <object>objects\obj_gameover</object>
+    <objects name="power ups">
+      <object>objects\obj_speedpotion</object>
+      <object>objects\obj_life</object>
+      <object>objects\obj_firepowerpotion</object>
+    </objects>
+    <objects name="Player">
+      <object>objects\obj_dragon</object>
+      <object>objects\obj_bigfireball</object>
+      <object>objects\obj_fireball</object>
+      <object>objects\obj_scroller</object>
+    </objects>
+    <objects name="Enemy">
+      <object>objects\obj_bird</object>
+      <object>objects\obj_boss2die</object>
+      <object>objects\obj_boss1</object>
+      <object>objects\obj_enemyparent</object>
+      <object>objects\obj_boss1die</object>
+      <object>objects\obj_bossrojectile</object>
+      <object>objects\obj_boss2</object>
+      <object>objects\obj_projectile</object>
+      <object>objects\obj_explosion</object>
+      <object>objects\obj_specialprojectile</object>
+      <object>objects\obj_arrow</object>
+      <object>objects\obj_archer</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>
