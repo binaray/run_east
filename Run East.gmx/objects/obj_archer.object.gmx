@@ -77,11 +77,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>32</string>
           </argument>
         </arguments>
       </action>
