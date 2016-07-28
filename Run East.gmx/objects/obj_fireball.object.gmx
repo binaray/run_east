@@ -90,7 +90,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_enemyparent">
+    <event eventtype="4" ename="obj_specialprojectile">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -134,7 +134,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_specialprojectile">
+    <event eventtype="4" ename="obj_projectile">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -222,7 +222,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_projectile">
+    <event eventtype="4" ename="obj_enemyparent">
       <action>
         <libid>1</libid>
         <id>203</id>
