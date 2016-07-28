@@ -757,17 +757,27 @@
     <event eventtype="7" enumb="9">
       <action>
         <libid>1</libid>
-        <id>203</id>
+        <id>101</id>
         <kind>0</kind>
-        <userelative>0</userelative>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
+        <functionname>action_move</functionname>
         <codestring></codestring>
-        <whoName>obj_dragon</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>000010000</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
       </action>
     </event>
     <event eventtype="8" enumb="64">
@@ -827,11 +837,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
@@ -855,15 +865,15 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>261</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>263</string>
           </argument>
           <argument>
             <kind>0</kind>
             <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-1</string>
           </argument>
         </arguments>
       </action>

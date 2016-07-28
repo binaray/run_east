@@ -61,6 +61,7 @@
     <object>objects\obj_life</object>
     <object>objects\obj_archer</object>
     <object>objects\obj_arrow</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>
