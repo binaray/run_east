@@ -35,6 +35,10 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
+    <background>background\bg_sky</background>
+    <background>background\bg_walls</background>
+    <background>background\bg_ground</background>
+    <background>background\bg_water</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
