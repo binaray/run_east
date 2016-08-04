@@ -59,6 +59,7 @@
     <objects name="Enemy">
       <object>objects\obj_bird</object>
       <object>objects\obj_boss2die</object>
+      <object>objects\obj_catapult</object>
       <object>objects\obj_boss1</object>
       <object>objects\obj_enemyparent</object>
       <object>objects\obj_boss1die</object>
