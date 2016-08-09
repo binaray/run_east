@@ -32,6 +32,13 @@
       <sprite>sprites\spr_arrow</sprite>
       <sprite>sprites\spr_catapult</sprite>
       <sprite>sprites\spr_boulder</sprite>
+      <sprite>sprites\spr_mount</sprite>
+      <sprites name="mook_sprites">
+        <sprite>sprites\spr_mook</sprite>
+        <sprite>sprites\spr_mook_shit</sprite>
+        <sprite>sprites\spr_mook_explode</sprite>
+        <sprite>sprites\spr_shit_splat</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_gameover</sprite>
   </sprites>
@@ -69,6 +76,7 @@
       <object>objects\obj_specialprojectile</object>
       <object>objects\obj_archer</object>
       <object>objects\obj_arrow</object>
+      <object>objects\obj_bird_explode</object>
     </objects>
   </objects>
   <rooms name="rooms">
