@@ -77,6 +77,7 @@
       <object>objects\obj_archer</object>
       <object>objects\obj_arrow</object>
       <object>objects\obj_bird_explode</object>
+      <object>objects\obj_horsething</object>
     </objects>
   </objects>
   <rooms name="rooms">
